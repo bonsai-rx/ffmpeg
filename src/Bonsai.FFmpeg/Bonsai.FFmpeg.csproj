@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Title>Bonsai - FFmpeg Library</Title>
+    <Description>Bonsai Library containing interfaces for encoding multimedia using FFmpeg. This package requires FFmpeg binaries to be installed separately.</Description>
+    <TargetFramework>net462</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bonsai.Core" Version="2.5.0" />
+    <PackageReference Include="Bonsai.Vision" Version="2.5.0" />
+  </ItemGroup>
+
+</Project>
