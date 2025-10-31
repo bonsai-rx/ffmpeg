@@ -11,7 +11,7 @@ You can use the FFmpeg package to flexibly encode media data using FFmpeg. The p
 
 ## Install FFmpeg
 
-1. Download and install the [latest FFmpeg build for Windows](https://ffmpeg.org/download.html#build-windows). FFmpeg only hosts source code, but they provide third-party links to already compiled executables of the full build.
+1. Download the [latest FFmpeg build for Windows](https://ffmpeg.org/download.html#build-windows). FFmpeg only hosts source code, but they provide third-party links to already compiled executables of the full build.
 
 2. Extract the files and place the FFmpeg binary in the `Extensions` folder of your system-wide Bonsai installation or local Bonsai [environment](https://bonsai-rx.org/docs/articles/environments.html). The path has to be exactly:
 
