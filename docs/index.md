@@ -13,8 +13,6 @@ You can use the FFmpeg package to flexibly encode media data using FFmpeg. The p
 
 In addition to the FFmpeg package you need to have a version of [FFmpeg](https://www.ffmpeg.org/) installed in your system. Below are suggested installation steps for Windows.
 
-# [Windows](#tab/windows)
-
 1. Download and install the [latest FFmpeg build for Windows](https://ffmpeg.org/download.html#build-windows). FFmpeg only hosts source code, but they provide third-party links to already compiled executables of the full build.
 
 ---
