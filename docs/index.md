@@ -1,4 +1,4 @@
-# Introduction
+# Getting Started
 
 The FFmpeg package is a [Bonsai](https://bonsai-rx.org/) interface for the open source [FFmpeg](https://www.ffmpeg.org/) multimedia framework.
 
