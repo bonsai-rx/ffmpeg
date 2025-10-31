@@ -15,8 +15,6 @@ In addition to the FFmpeg package you need to have a version of [FFmpeg](https:/
 
 1. Download and install the [latest FFmpeg build for Windows](https://ffmpeg.org/download.html#build-windows). FFmpeg only hosts source code, but they provide third-party links to already compiled executables of the full build.
 
----
-
 2. Extract the files and place the FFmpeg binary in the `Extensions` folder of your Bonsai installation. The easiest way to find your Bonsai install folder is to right-click on the Bonsai shortcut > Properties. The path to the folder will be shown in the "Start in" textbox. The path has to be exactly `Extensions\ffmpeg.exe`.
 
 
