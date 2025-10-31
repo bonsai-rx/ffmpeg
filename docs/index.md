@@ -25,4 +25,12 @@ You can use the FFmpeg package to flexibly encode media data using FFmpeg. The p
 
 ## How to use
 
-To set the VideWriter(FFmpeg) node's `OutputArguments` property, refer to the [FFmpeg documentation](https://ffmpeg.org/ffmpeg.html).
+FFmpeg arguments can be supplied to the [`VideoWriter`](xref:Bonsai.FFmpeg.VideoWriter) node's `OutputArguments` property. For example, to scale a video, you can enter:
+
+`-s 640x480`
+
+Additional output arguments can be found by referring to the [FFmpeg documentation](https://www.ffmpeg.org/documentation.html).
+
+## Troubleshooting
+
+FFmpeg output and error messages are displayed in the Bonsai console window and can help diagnose **Pipe is broken** issues. For example, hardware encoding may require updated graphics drivers.
