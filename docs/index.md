@@ -1,13 +1,13 @@
 # Getting Started
 
-The FFmpeg package is a [Bonsai](https://bonsai-rx.org/) interface for the open source [FFmpeg](https://www.ffmpeg.org/) multimedia framework.
+`Bonsai.FFmpeg` is a [Bonsai](https://bonsai-rx.org/) interface for the open source [FFmpeg](https://www.ffmpeg.org/) multimedia framework.
 
-You can use the FFmpeg package to flexibly encode media data using FFmpeg. The package requires a separate FFmpeg installation.
+You can use `Bonsai.FFmpeg` to flexibly encode media data using FFmpeg. The package requires a separate FFmpeg installation.
 
 ## How to install
 
 1. Install [Bonsai](https://bonsai-rx.org/).
-2. From the package manager, search and install the **Bonsai - FFmpeg** package.
+2. From the package manager, search and install the **Bonsai.FFmpeg** package.
 
 ## Install FFmpeg
 
@@ -25,7 +25,7 @@ You can use the FFmpeg package to flexibly encode media data using FFmpeg. The p
 
 ## How to use
 
-FFmpeg arguments can be supplied to the [`VideoWriter`](xref:Bonsai.FFmpeg.VideoWriter) node's `OutputArguments` property. For example, to scale a video, you can enter:
+FFmpeg arguments can be supplied to the [`OutputArguments`](xref:Bonsai.FFmpeg.VideoWriter.OutputArguments) property of the [`VideoWriter`](xref:Bonsai.FFmpeg.VideoWriter) operator. For example, to scale a video, you can enter:
 
 `-s 640x480`
 
